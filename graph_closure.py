@@ -1,5 +1,5 @@
 #
-#	a simple pyhton script to calculate the Closure of a graph
+#	a simple python script to calculate the Closure of a graph
 #
 #	Author : Mehdi I.
 #
