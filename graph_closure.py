@@ -5,6 +5,7 @@
 #
 
 def get_degree_of_node(mat,n):
+	
 	d=0
 	for row in mat:
 		d=d+row[n]
@@ -12,6 +13,7 @@ def get_degree_of_node(mat,n):
 
 
 def get_closure(adj_matrix,lenght):
+	
 	mat=adj_matrix
 	changes=0
 	for i in range(lenght):
