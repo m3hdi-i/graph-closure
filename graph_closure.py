@@ -4,6 +4,7 @@
 #	Author : Mehdi I.
 #
 
+
 def get_degree_of_node(mat,n):
 	d=0
 	for row in mat:
