@@ -1,11 +1,10 @@
 #
-#	a simple python script to calculate the Closure of a graph
+#	a simple pyhton script to calculate the Closure of a graph
 #
 #	Author : Mehdi I.
 #
 
 def get_degree_of_node(mat,n):
-	
 	d=0
 	for row in mat:
 		d=d+row[n]
@@ -13,7 +12,6 @@ def get_degree_of_node(mat,n):
 
 
 def get_closure(adj_matrix,lenght):
-	
 	mat=adj_matrix
 	changes=0
 	for i in range(lenght):
